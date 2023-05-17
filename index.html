@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GENERALISS</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app-container">
+      <header>
+        <h1>Generaliss</h1>
+        <h4>Un pseudo unique</h4>
+      </header>
+
+      <div class="option-container">
+        <p>
+          Choisis le début et/ou la fin de ton futur pseudo et clique sur le
+          bouton jusqu'à ce que tu trouves celui qui te convient.
+        </p>
+        <form>
+          <label for="start">Commence par :</label>
+          <input type="text" id="start" />
+          <label for="end">Fini par :</label>
+          <input type="text" id="end" />
+        </form>
+        <button id="btn">Générer</button>
+      </div>
+
+      <div class="result-container">
+        <span id="error"></span>
+        <span id="result"></span>
+      </div>
+
+      <span id="copy">Pseudo copié !</span>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
