@@ -42,5 +42,8 @@ btn.addEventListener("click", () => {
 
 result.addEventListener("click", () => {
   navigator.clipboard.writeText(pseudo);
-  copy.style.display = "block";
+  result.innerHTML = "Pseudo copié !";
+  setTimeout(() => {
+    result.innerHTML = pseudo;
+  }, 1000);
 });

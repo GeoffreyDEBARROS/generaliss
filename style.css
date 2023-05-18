@@ -96,15 +96,6 @@ button:hover {
 #result:hover {
     cursor: pointer;
 }
-#copy {
-    position: absolute;
-    left: 50%;
-    bottom: 280px;
-    transform: translateX(-50%);
-    border: 3px solid #FF7E67;
-    padding: 5px;
-    display: none;
-}
 .footer {
     position: static;   
     margin-top: 100px;
