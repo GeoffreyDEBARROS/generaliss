@@ -114,3 +114,16 @@ li {
     margin-top: 35px;
     font-size: 0.7rem;
 }
+
+ 
+@media screen and (min-width:1250px) {
+    h1 {
+        font-size: 3rem;
+    }
+    form {
+        margin: 40px 0;
+    }
+    .footer {
+       margin-top: 200px;
+    }
+}
